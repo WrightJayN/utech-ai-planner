@@ -22,6 +22,7 @@ Credits and overall percentage update in real time.
 |---|---|
 | 🎓 Single programme | BSc Applied Artificial Intelligence — 4 years, 8 semesters |
 | 🔒 Prereq locking | Courses unlock only when dependencies are met (including "either/or" prereqs) |
+| 🎯 Elective picker | Choose the exact SCIT Elective course from a dropdown on its card |
 | 🎚 Elective credits | Pick 3 or 4 credits for each elective from a dropdown on its card |
 | 📊 Live credit counter | Tracks earned vs. total credits; header % and sidebar agree |
 | 🏫 Modality shown | F2F / Online / F2F & Online shown on each Year 1–2 card |
@@ -99,6 +100,7 @@ Notes on how the guide is modelled:
 - **CIT3003 Analysis of Algorithms** requires CMP2006 **and** either MAT2003 **or** MAT1008.
 - **COM1024**'s requirement (COM1001 or CSEC/CAPE grade) is an entry requirement, so it is shown but never locks the course.
 - The University Elective (Sem 5) and SCIT Elective (Sem 6) default to 3 credits; switch to 4 if your chosen elective is 4 credits.
+- The AI guide doesn't list SCIT electives, so the SCIT Elective dropdown uses the SCIT list from the Animation programme's guide, minus courses already in this programme (CMP1026). Electives marked \* have prerequisites of their own.
 - Year labels ("Foundations", etc.) are the planner's own; the guide only numbers the semesters.
 
 ---
